@@ -1,0 +1,13 @@
+{
+    "image": "haskell:latest",
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/github/c_practice,target=/workspace,type=bind"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "haskell.haskell"
+            ]
+        }
+    }
+}
