@@ -1,7 +1,7 @@
 {
     "image": "haskell:latest",
     "mounts": [
-        "source=${localEnv:HOME}${localEnv:USERPROFILE}/github/c_practice,target=/workspace,type=bind"
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/github/haskell_practice,target=/workspace,type=bind"
     ],
     "customizations": {
         "vscode": {
